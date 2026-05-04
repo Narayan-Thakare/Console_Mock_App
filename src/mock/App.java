@@ -884,171 +884,401 @@ public class App {
 			
 			
 			/// variable and datatype
-		question.put("Easy:- What is a variable? ",
-		        "A variable is a " + start + " NAMED MEMORY LOCATION USED TO STORE DATA " + end + ".");
-
-		question.put("Easy:- How to access a variable? ",
-		        "We can " + start + " ACCESS (FETCH) THE VALUE USING THE VARIABLE NAME " + end + ".");
-
-		question.put("Easy:- What is the use of a variable? ",
-		        "A variable is used to " + start + " STORE, RETRIEVE, AND MODIFY DATA " + end + " during program execution.");
-
-		question.put("Easy:- Syntax of variable declaration? ",
-		        start + " DATATYPE VARIABLENAME; " + end);
-
-		question.put("Easy:- Syntax of variable initialization? ",
-		        start + " VARIABLENAME = VALUE; " + end);
-
-		question.put("Easy:- Syntax of declaration and initialization? ",
-		        start + " DATATYPE VARIABLENAME = VALUE; " + end);
-
-		question.put("Easy:- Can we use a local variable without initializing? ",
-		        start + " NO, LOCAL VARIABLES MUST BE INITIALIZED BEFORE USE. " + end);
-
-		question.put("Easy:- What happens if we use an uninitialized local variable? ",
-		        start + " COMPILE-TIME ERROR OCCURS. " + end);
-
-		question.put("Easy:- Can we modify a variable? ",
-		        start + " YES, VARIABLE VALUES CAN BE MODIFIED DURING EXECUTION. " + end);
-
-		question.put("Easy:- Can we create variables with the same name? ",
-		        start + " NO, NOT IN THE SAME SCOPE. " + end);
-
-		question.put("Easy:- What happens if we declare variables with the same name in same scope? ",
-		        start + " COMPILE-TIME ERROR (DUPLICATE VARIABLE). " + end);
-		
-		
-		
-		
-		
-		
-		
-		
-		question.put("Easy:- What happens if variables have same name in different scopes? ",
-				"It is allowed. The local variable will override (shadow) the outer variable.");
-
-		question.put("Easy:- Are variables temporary or permanent? ",
-				"Variables are "+start+" temporary; "+end+" they exist only during their scope/lifetime.");
-
-		question.put("Easy:- Do variables have a lifespan? ", start+"Yes,"+end+" each variable has a lifetime based on its scope.");
-
-		question.put("Easy:- What is scope? ", "Scope defines where a variable can be accessed "+start+" (its visibility)."+end);
-
-		question.put("Easy:- Types of variables in Java? ",
-				start+"Local variables, instance variables, and static variables."+end);
-
-		question.put("Easy:- Difference between local and instance variable? ",
-				"Local variables are declared inside methods and must be initialized. Instance variables are declared inside class but outside methods and get default values.");
-
-		question.put("Easy:- What is a default value of instance variables? ",
-				"Instance variables get default values like 0, false, null depending on the type.");
-
-		question.put("Easy:- Do local variables get default values? ",
-				"No, local variables must be initialized before use.");
-
-		question.put("Easy:- Where are local variables stored? ", "Local variables are stored in "+start+"stack memory."+end);
-		
-		
-		
-		
-		
-		
-		
-
-		//------------/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/----------------- -----
-		question.put("Easy:- What is a data type? ",
-				"A data type "+start+" defines the type of data a variable can store "+end+"and the operations that can be performed on it.");
-
-		question.put("Easy:- Types of data types in Java? ",
-				"Primitive data types and non-primitive (reference) data types.");
-
-		question.put("Easy:- What is a primitive data type? ",
-				"Primitive data types store simple values directly in memory.");
-
-		question.put("Easy:- What is a non-primitive data type? ",
-				"Non-primitive data types store references (addresses) to objects.");
-
-		question.put("Easy:- Types of primitive data types? ", "byte, short, int, long, float, double, char, boolean.");
-
-		question.put("Easy:- Types of non-primitive data types? ", "Classes, Arrays, Strings, Interfaces, etc.");
-
-		question.put("Easy:- How many primitive data types are there? ", "There are 8 primitive data types in Java.");
-
-		question.put("Easy:- What is 'var' in Java? ",
-				"'var' is a local variable type inference keyword introduced in Java 10. The compiler automatically determines the variable type.");
-
-		question.put("Easy:- Which data type stores true/false values? ", "boolean data type.");
-
-		question.put("Easy:- Which data type is used for conditions? ", "boolean data type.");
-
-		question.put("Easy:- What is the size and range of byte? ", "Size: 1 byte (8 bits). Range: -128 to 127.");
-
-		question.put("Easy:- What is the size and range of short? ",
-				"Size: 2 bytes (16 bits). Range: -32,768 to 32,767.");
-
-		question.put("Easy:- What is the size and range of int? ",
-				"Size: 4 bytes (32 bits). Range: -2,147,483,648 to 2,147,483,647.");
-
-		question.put("Easy:- What is the size and range of long? ",
-				"Size: 8 bytes (64 bits). Range: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.");
-
-		question.put("Easy:- Difference between short and char? ",
-				"Both are 2 bytes. short is signed (-32,768 to 32,767), while char is unsigned (0 to 65,535) and stores Unicode characters.");
-
-		question.put("Easy:- Why does char have a different range than short? ",
-				"Because char is unsigned (no sign bit), while short is signed (includes a sign bit).");
-
-		question.put("Easy:- What is the range of char? ", "0 to 65,535 (unsigned 16-bit).");
-
-		question.put("Easy:- How are characters represented as numbers? ",
-				"Characters are stored using Unicode values (not just ASCII). Each character maps to a numeric code.");
-
-		question.put("Easy:- Among byte, short, and int, which has higher priority? ",
-				"int has higher priority in arithmetic operations.");
-
-		question.put("Easy:- byte + byte results in which type? ", "int (due to type promotion).");
-
-		question.put("Easy:- short + short results in which type? ", "int (due to type promotion).");
-
-		question.put("Easy:- What is the purpose of 'var' in Java? ",
-				"'var' is a local variable type inference keyword. The compiler determines the variable type based on the assigned value.");
-
-		question.put("Easy:- Can 'var' store multiple types dynamically? ",
-				"No. Once assigned, its type is fixed and cannot change.");
-
-		question.put("Easy:- Which data type is suitable for storing contact numbers? ",
-				"String is preferred, because phone numbers are not used for calculations and may contain leading zeros or symbols.");
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+//		question.put("Easy:- What is a variable? ",
+//		        "A variable is a " + start + " NAMED MEMORY LOCATION USED TO STORE DATA " + end + ".");
+//
+//		question.put("Easy:- How to access a variable? ",
+//		        "We can " + start + " ACCESS (FETCH) THE VALUE USING THE VARIABLE NAME " + end + ".");
+//
+//		question.put("Easy:- What is the use of a variable? ",
+//		        "A variable is used to " + start + " STORE, RETRIEVE, AND MODIFY DATA " + end + " during program execution.");
+//
+//		question.put("Easy:- Syntax of variable declaration? ",
+//		        start + " DATATYPE VARIABLENAME; " + end);
+//
+//		question.put("Easy:- Syntax of variable initialization? ",
+//		        start + " VARIABLENAME = VALUE; " + end);
+//
+//		question.put("Easy:- Syntax of declaration and initialization? ",
+//		        start + " DATATYPE VARIABLENAME = VALUE; " + end);
+//
+//		question.put("Easy:- Can we use a local variable without initializing? ",
+//		        start + " NO, LOCAL VARIABLES MUST BE INITIALIZED BEFORE USE. " + end);
+//
+//		question.put("Easy:- What happens if we use an uninitialized local variable? ",
+//		        start + " COMPILE-TIME ERROR OCCURS. " + end);
+//
+//		question.put("Easy:- Can we modify a variable? ",
+//		        start + " YES, VARIABLE VALUES CAN BE MODIFIED DURING EXECUTION. " + end);
+//
+//		question.put("Easy:- Can we create variables with the same name? ",
+//		        start + " NO, NOT IN THE SAME SCOPE. " + end);
+//
+//		question.put("Easy:- What happens if we declare variables with the same name in same scope? ",
+//		        start + " COMPILE-TIME ERROR (DUPLICATE VARIABLE). " + end);
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		question.put("Easy:- What happens if variables have same name in different scopes? ",
+//				"It is allowed. The local variable will override (shadow) the outer variable.");
+//
+//		question.put("Easy:- Are variables temporary or permanent? ",
+//				"Variables are "+start+" temporary; "+end+" they exist only during their scope/lifetime.");
+//
+//		question.put("Easy:- Do variables have a lifespan? ", start+"Yes,"+end+" each variable has a lifetime based on its scope.");
+//
+//		question.put("Easy:- What is scope? ", "Scope defines where a variable can be accessed "+start+" (its visibility)."+end);
+//
+//		question.put("Easy:- Types of variables in Java? ",
+//				start+"Local variables, instance variables, and static variables."+end);
+//
+//		question.put("Easy:- Difference between local and instance variable? ",
+//				"Local variables are declared inside methods and must be initialized. Instance variables are declared inside class but outside methods and get default values.");
+//
+//		question.put("Easy:- What is a default value of instance variables? ",
+//				"Instance variables get default values like 0, false, null depending on the type.");
+//
+//		question.put("Easy:- Do local variables get default values? ",
+//				"No, local variables must be initialized before use.");
+//
+//		question.put("Easy:- Where are local variables stored? ", "Local variables are stored in "+start+"stack memory."+end);
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//
+//		//------------/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/----------------- -----
+//		question.put("Easy:- What is a data type? ",
+//				"A data type "+start+" defines the type of data a variable can store "+end+"and the operations that can be performed on it.");
+//
+//		question.put("Easy:- Types of data types in Java? ",
+//				"Primitive data types and non-primitive (reference) data types.");
+//
+//		question.put("Easy:- What is a primitive data type? ",
+//				"Primitive data types store simple values directly in memory.");
+//
+//		question.put("Easy:- What is a non-primitive data type? ",
+//				"Non-primitive data types store references (addresses) to objects.");
+//
+//		question.put("Easy:- Types of primitive data types? ", "byte, short, int, long, float, double, char, boolean.");
+//
+//		question.put("Easy:- Types of non-primitive data types? ", "Classes, Arrays, Strings, Interfaces, etc.");
+//
+//		question.put("Easy:- How many primitive data types are there? ", "There are 8 primitive data types in Java.");
+//
+//		question.put("Easy:- What is 'var' in Java? ",
+//				"'var' is a local variable type inference keyword introduced in Java 10. The compiler automatically determines the variable type.");
+//
+//		question.put("Easy:- Which data type stores true/false values? ", "boolean data type.");
+//
+//		question.put("Easy:- Which data type is used for conditions? ", "boolean data type.");
+//
+//		question.put("Easy:- What is the size and range of byte? ", "Size: 1 byte (8 bits). Range: -128 to 127.");
+//
+//		question.put("Easy:- What is the size and range of short? ",
+//				"Size: 2 bytes (16 bits). Range: -32,768 to 32,767.");
+//
+//		question.put("Easy:- What is the size and range of int? ",
+//				"Size: 4 bytes (32 bits). Range: -2,147,483,648 to 2,147,483,647.");
+//
+//		question.put("Easy:- What is the size and range of long? ",
+//				"Size: 8 bytes (64 bits). Range: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.");
+//
+//		question.put("Easy:- Difference between short and char? ",
+//				"Both are 2 bytes. short is signed (-32,768 to 32,767), while char is unsigned (0 to 65,535) and stores Unicode characters.");
+//
+//		question.put("Easy:- Why does char have a different range than short? ",
+//				"Because char is unsigned (no sign bit), while short is signed (includes a sign bit).");
+//
+//		question.put("Easy:- What is the range of char? ", "0 to 65,535 (unsigned 16-bit).");
+//
+//		question.put("Easy:- How are characters represented as numbers? ",
+//				"Characters are stored using Unicode values (not just ASCII). Each character maps to a numeric code.");
+//
+//		question.put("Easy:- Among byte, short, and int, which has higher priority? ",
+//				"int has higher priority in arithmetic operations.");
+//
+//		question.put("Easy:- byte + byte results in which type? ", "int (due to type promotion).");
+//
+//		question.put("Easy:- short + short results in which type? ", "int (due to type promotion).");
+//
+//		question.put("Easy:- What is the purpose of 'var' in Java? ",
+//				"'var' is a local variable type inference keyword. The compiler determines the variable type based on the assigned value.");
+//
+//		question.put("Easy:- Can 'var' store multiple types dynamically? ",
+//				"No. Once assigned, its type is fixed and cannot change.");
+//
+//		question.put("Easy:- Which data type is suitable for storing contact numbers? ",
+//				"String is preferred, because phone numbers are not used for calculations and may contain leading zeros or symbols.");
+//		
+//		
+//		
+//		
+//		
+//		
+//		question.put("Easy:- What is the range of var ? ",
+//		        "var is a keyword in Java. It is not a data type, so it does not have any range.");
+//
+//		question.put("Easy:- What is a non primitive data type? ",
+//		        "A non-primitive data type is a data type that stores references to objects rather than actual values. Examples include String, arrays, and classes.");
+//
+//		question.put("Easy:- Total how many non primitive data types we have? ",
+//		        "There is no fixed number of non-primitive data types. It depends on the developer, as every class, array, and interface is considered a non-primitive type.");
+//
+//		question.put("Easy:- Difference between primitive data type and non primitive data type? ",
+//		        "Primitive data types store actual values and have fixed sizes. Non-primitive data types store references to objects and can also store null.");
+//
+//		question.put("Easy:- var is a keyword, data type, or method? ",
+//		        "var is a keyword in Java used for type inference. It is not a data type or a method.");
+//
+//		question.put("Easy:- Difference between primitive data type, non primitive data type and var? ",
+//		        "Primitive data types store actual values. Non-primitive data types store references to objects. var is a keyword that lets the compiler automatically determine the variable type.");
+//
+//		question.put("Easy:- Give me an example of using var in a program. ",
+//		        "var a = 10;\nvar name = \"Java\";\nvar price = 10.5;");
+//		
+//		
+//		
+//		question.put("Easy:- What can we store inside a non-primitive data type? ",
+//		        "In a non-primitive data type, we store object references (addresses) and it can also store null.");
+//
+//		question.put("Easy:- Can a non-primitive data type store primitive values? ",
+//		        "No. Non-primitive data types store references, not primitive values directly.");
+//
+//		question.put("Easy:- Can a primitive data type store a non-primitive value? ",
+//		        "No. Primitive data types can store only primitive values.");
+//
+//		question.put("Easy:- Which data type can store the address of an object and null value? ",
+//		        "Non-primitive data types can store object references and null values.");
+//
+//		question.put("Easy:- Give examples of non-primitive data types. ",
+//		        "Examples include String, arrays, classes, and interfaces.");
+//
+//		question.put("Easy:- In Java, how many non-primitive data types do we have? ",
+//		        "There is no fixed number. Developers can create unlimited non-primitive data types.");
+//
+//		question.put("Easy:- Can var store non-primitive data types? ",
+//		        "Yes. var can store both primitive and non-primitive types because the compiler infers the type automatically.");
+//
+//		question.put("Easy:- In String, how do we store data directly? ",
+//		        "We can store data directly using string literals, for example: String s = \"Hello\";");
+//
+//		question.put("Easy:- String is a primitive or non-primitive data type? ",
+//		        "String is a non-primitive (reference) data type.");
+//
+//		question.put("Easy:- Which can store both primitive and non-primitive data types? ",
+//		        "var can store both primitive and non-primitive types based on the assigned value.");
+//
+//		question.put("Easy:- Which keyword is called an inference keyword? ",
+//		        "var is called a type inference keyword.");
+//		
+//		
+//		////////////////////////////////////////                               /////////////////////////////////////////		
+//				
+//				
+//		question.put("Easy:- Types of variables in Java? ",
+//			    "There are three types of variables in Java: "+start+"Local variables, Instance variables, and Static variables."+end);
+//
+//			question.put("Easy:- What is a local variable? ",
+//			    "A local variable is a variable declared inside a "+start+" method, constructor, or block. "+end+"It does not have a default value and must be initialized before use.");
+//
+//			question.put("Easy:- What is an instance variable? ",
+//			    "An instance variable is a variable declared inside a class but outside any method. It has a default value and belongs to an object (instance of the class).");
+//  
+//			question.put("Easy:- What is a static variable? ",
+//			    "A static variable is declared using the static keyword inside a class but outside methods. It belongs to the class rather than objects and is shared among all instances.");
+//
+//			question.put("Easy:- Can local variable have default value? ",
+//			    "No, local variables do not have default values and must be initialized before use.");
+//
+//			question.put("Easy:- Can instance variable have default value? ",
+//			    "Yes, instance variables have default values provided by Java.");
+//
+//			question.put("Easy:- Can static variable have default value? ",
+//			    "Yes, static variables also have default values provided by Java.");
+//
+//			question.put("Easy:- Can a local variable be created inside a class? ",
+//			    "No, local variables cannot be declared directly inside a class. They must be declared inside methods, constructors, or blocks.");
+//
+//			question.put("Easy:- Where do we create local variables? ",
+//			    "Local variables are created inside methods, constructors, or blocks.");
+//		
+//		
+//		
+//		
+//			question.put("Easy:- If we create variables inside a class block then what happens? ",
+//				    "If variables are created inside a class but outside methods, they become instance variables or static variables depending on whether they use the static keyword. These variables get default values and are accessible throughout the class.");
+//
+//				question.put("Easy:- Can we create instance variable in a method? ",
+//				    "No, instance variables cannot be created inside a method. They must be declared at class level.");
+//
+//				question.put("Easy:- Where do we create instance variables? ",
+//				    "Instance variables are created inside the class body but outside any method, constructor, or block.");
+//
+//				question.put("Easy:- Where do we create static variables? ",
+//				    "Static variables are created inside the class body using the static keyword, but outside methods.");
+//
+//				question.put("Easy:- Can we create static variable in a method? ",
+//				    "No, we cannot declare static variables inside a method. Static variables must be declared at class level.");
+//
+//				question.put("Easy:- What is the difference between local, instance, and static variables? ",
+//				    "Local variables are declared inside methods and do not have default values. Instance variables are declared inside a class and belong to objects, and they have default values. Static variables are declared using the static keyword, belong to the class, are shared among all objects, and also have default values.");
+//
+//				question.put("Easy:- What is the default value of static variable? ",
+//				    "The default value of a static variable depends on its data type. For example, int = 0, boolean = false, object reference = null.");
+//
+//				question.put("Easy:- What is the difference between instance variable and static variable? ",
+//				    "Instance variables belong to an object, and each object has its own copy.\n"
+//				    + " Static variables belong to the class and are shared among all objects. \n"
+//				    + "Instance variables are accessed using objects, \n"
+//				    + "while static variables can be accessed using the class name.");
+//		
+//		
+//				
+//				question.put("Easy:- How can we access a static variable? ",
+//					    "We can access a static variable using the class name (recommended) or directly within the same class.");
+//
+//					question.put("Easy:- Tell me two ways of accessing a static variable. ",
+//					    "1) Using class name (ClassName.variable) 2) Directly within the same class.");
+//
+//					question.put("Easy:- Can we access static variable using object reference? ",
+//					    "Yes, we can access it using an object reference, but it is not recommended because static variables belong to the class, not the object.");
+//
+//					question.put("Easy:- How do we access an instance variable? ",
+//					    "Instance variables are accessed using an object reference.");
+//
+//					question.put("Easy:- Can we access instance variable using class name? ",
+//					    "No, instance variables cannot be accessed using the class name because they belong to objects.");
+//
+//					question.put("Easy:- Can we access instance variable directly? ",
+//					    "Yes, we can access instance variables directly within the same class (non-static context). Otherwise, we need an object.");
+//
+//					question.put("Easy:- Can we access local variable directly? ",
+//					    "Yes, local variables can be accessed directly within the method where they are declared.");
+//
+//					question.put("Easy:- Can we access local variable outside the method? ",
+//					    "No, local variables cannot be accessed outside the method because their scope is limited to that method.");
+//
+//					question.put("Easy:- Why do local variables not have default values? ",
+//					    "Because Java does not assign default values to local variables. They must be explicitly initialized before use to avoid unpredictable behavior.");
+//
+//					question.put("Easy:- Local variables belong to whom? ",
+//					    "Local variables belong to the method or block in which they are declared.");
+//
+//					question.put("Easy:- Static variables belong to whom? ",
+//					    "Static variables belong to the class.");
+//
+//					question.put("Easy:- Instance variables belong to whom? ",
+//					    "Instance variables belong to objects.");
+//
+//					question.put("Easy:- What is the default value of char? ",
+//					    "The default value of char is '\\u0000' (null character).");
+//
+//					question.put("Easy:- What is the default value of boolean? ",
+//					    "The default value of boolean is false.");
+//					
+//					
+//					
+//	          /////////////////////////////////     Operator                   /////////////////////////////////
+//					
+//		
+//					question.put("Easy:- What is an operator?",
+//						    "An operator is a symbol that performs a specific operation on one or more operands.");
+//
+//						question.put("Easy:- Types of operators based on operands?",
+//						    "Unary (one operand), Binary (two operands), and Ternary (three operands).");
+//
+//						question.put("Easy:- What is an operand?",
+//						    "Operands are the values or variables on which an operator performs an operation.");
+//
+//						question.put("Easy:- Give examples of operators.",
+//						    "Arithmetic (+, -, *, /), Relational (>, <, ==), Logical (&&, ||), etc.");
+//
+//						question.put("Easy:- Can we use an operator without operands?",
+//						    "No, every operator requires at least one operand.");
+//
+//						question.put("Easy:- Are operators predefined?",
+//						    "Yes, operators are predefined symbols provided by the language.");
+//
+//						question.put("Easy:- What does an operator return?",
+//						    "An operator returns a result value after performing the operation.");
+//
+//						question.put("Easy:- What happens if we add a String and a boolean?",
+//						    "The boolean is converted to a String, and concatenation happens.");
+//
+//						question.put("Easy:- What is operator precedence?",
+//						    "Operator precedence determines the order in which operations are performed in an expression.");
+//
+//						question.put("Easy:- Which operator has the highest priority?",
+//						    "Unary operators (like ++, --, !), followed by arithmetic, relational, logical, and assignment operators.");
+//					
+//					
+//					
+//					
+//					
+//					
+//					
+//					
+//						question.put("Easy:- Tell me the list of operators by their priority.",
+//							    "From highest to lowest: Unary (++, --, !), Multiplicative (*, /, %), Additive (+, -), Relational (<, >, <=, >=), Equality (==, !=), Logical AND (&&), Logical OR (||), Assignment (=, +=, -=).");
+//
+//							question.put("Easy:- What is associativity of operators?",
+//							    "Associativity defines the direction of evaluation when operators of the same precedence appear.");
+//
+//							question.put("Easy:- What directions exist in associativity?",
+//							    "Left to right and right to left.");
+//
+//							question.put("Easy:- Give example of right-to-left associativity.",
+//							    "Assignment operators (=, +=, -=) follow right-to-left associativity.");
+//
+//							question.put("Easy:- Give example of left-to-right associativity.",
+//							    "Arithmetic operators (+, -, *, /) follow left-to-right associativity.");
+//
+//							question.put("Easy:- Why do we need operators?",
+//							    "Operators are used to perform operations on data to produce a result.");
+//
+//							question.put("Easy:- What is the need of precedence?",
+//							    "Precedence ensures the correct order of execution in expressions with multiple operators.");
+//
+//							question.put("Easy:- What is the need of associativity?",
+//							    "Associativity resolves ambiguity when operators of the same precedence are used together.");
+//
+//							question.put("Easy:- Operators are classified into how many types?",
+//							    "Operators are classified into two types: based on operands and based on functionality.");
+//
+//							question.put("Easy:- Operators classified by operands?",
+//							    "Unary, Binary, and Ternary.");
+//
+//							question.put("Easy:- Operators classified by functionality?",
+//						  	    "Arithmetic, Relational, Logical, Assignment, Bitwise, Increment/Decrement, and Compound Assignment operators.");
+//
+//							question.put("Easy:- What is a unary operator?",
+//							    "A unary operator works on a single operand, e.g., ++, --, !.");
+//
+//							question.put("Easy:- Arithmetic operators are unary or binary?",
+//							    "Arithmetic operators can be both unary (++, --) and binary (+, -, *, /).");
+//
+//							question.put("Easy:- Which operator is polymorphic in nature?",
+//							    "The + operator is polymorphic.");
+//
+//							question.put("Easy:- What does polymorphic mean for operators?",
+//							    "Polymorphic means the operator behaves differently based on operand types.");
+//
+//							question.put("Easy:- Give example of polymorphic operator.",
+//							    "10 + 20 = 30 (addition), \"Hi\" + 10 = \"Hi10\" (concatenation).");
+//
+//							question.put("Easy:- Addition operator is unary or binary?",
+//							    "Addition operator (+) is a binary operator because it requires two operands.");
+//					
+									
 		
 		
 		
